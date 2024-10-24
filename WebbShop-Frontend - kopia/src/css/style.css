@@ -1,0 +1,60 @@
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: hotpink;
+    height: 150px;
+}
+button {
+    background-color: lightpink;
+    color: #666;
+    border-color: #ccc;
+    height: 25px;
+    width: 250px;
+    border-radius: 5px;
+    border-width: 1px;
+    transition: 0.15s;
+    font-weight: bold;
+}
+.disabled-button {
+    background-color: gray; /* Grå bakgrund */
+    color: white;           /* Vit text */
+    cursor: not-allowed;    /* Visa att knappen är inaktiv */
+}
+main {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+main > h2 {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.flexproducts{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+    margin:1%;
+    width: 80%;
+    border-radius: 5px;
+    border-style: solid; 
+    border-color: lightpink;
+    background-color: #eee;
+    box-shadow: 0 0 15px lightpink;
+    color: #666;
+}
+.cards{
+    border-radius: 5px;
+    border-style: solid; 
+    border-color: lightpink;
+    background-color: #eee;
+    box-shadow: 0 0 15px lightpink;
+    color: #666;
+
+}
+img{
+    max-width: 200px;
+    max-height: 200px;
+}
